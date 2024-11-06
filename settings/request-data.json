@@ -1,0 +1,41 @@
+{
+    "\/": {
+        "url": "\/",
+        "includedFiles": [
+            "C:\\xampp\\htdocs\\projects\\package-creations\\create-prisma-php-app-dev\\create-prisma-php-app-test\\test-auth-latest\\src\\app\\index.php"
+        ]
+    },
+    "signin": {
+        "url": "signin",
+        "includedFiles": [
+            "C:\\xampp\\htdocs\\projects\\package-creations\\create-prisma-php-app-dev\\create-prisma-php-app-test\\test-auth-latest\\src\\app\\(auth)\\signin\\index.php"
+        ]
+    },
+    "signup": {
+        "url": "signup",
+        "includedFiles": [
+            "C:\\xampp\\htdocs\\projects\\package-creations\\create-prisma-php-app-dev\\create-prisma-php-app-test\\test-auth-latest\\src\\app\\(auth)\\signup\\index.php"
+        ]
+    },
+    "dashboard": {
+        "url": "dashboard",
+        "includedFiles": [
+            "C:\\xampp\\htdocs\\projects\\package-creations\\create-prisma-php-app-dev\\create-prisma-php-app-test\\test-auth-latest\\src\\app\\dashboard\\index.php",
+            "C:\\xampp\\htdocs\\projects\\package-creations\\create-prisma-php-app-dev\\create-prisma-php-app-test\\test-auth-latest\\src\\app\\dashboard\\layout.php"
+        ]
+    },
+    "dashboard\/adds": {
+        "url": "dashboard\/adds",
+        "includedFiles": [
+            "C:\\xampp\\htdocs\\projects\\package-creations\\create-prisma-php-app-dev\\create-prisma-php-app-test\\test-auth-latest\\src\\app\\dashboard\\adds\\index.php",
+            "C:\\xampp\\htdocs\\projects\\package-creations\\create-prisma-php-app-dev\\create-prisma-php-app-test\\test-auth-latest\\src\\app\\dashboard\\layout.php"
+        ]
+    },
+    "dashboard\/users": {
+        "url": "dashboard\/users",
+        "includedFiles": [
+            "C:\\xampp\\htdocs\\projects\\package-creations\\create-prisma-php-app-dev\\create-prisma-php-app-test\\test-auth-latest\\src\\app\\dashboard\\users\\index.php",
+            "C:\\xampp\\htdocs\\projects\\package-creations\\create-prisma-php-app-dev\\create-prisma-php-app-test\\test-auth-latest\\src\\app\\dashboard\\layout.php"
+        ]
+    }
+}
