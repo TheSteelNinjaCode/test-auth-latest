@@ -5,6 +5,10 @@ use Lib\Auth\Auth;
 use Lib\Request;
 use Lib\StateManager;
 
+// if (Auth::getInstance()->isAuthenticated()) {
+//     Request::redirect('/dashboard');
+// }
+
 $message = StateManager::getState('message');
 
 function loginUser($data)

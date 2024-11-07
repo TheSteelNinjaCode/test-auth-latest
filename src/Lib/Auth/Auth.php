@@ -16,7 +16,7 @@ use Lib\Request;
 class Auth
 {
     public const PAYLOAD_NAME = 'payload_name_8639D';
-    public const ROLE_NAME = '';
+    public const ROLE_NAME = 'role';
     public const PAYLOAD_SESSION_KEY = 'payload_session_key_2183A';
     public const COOKIE_NAME = 'cookie_name_D36E5';
 

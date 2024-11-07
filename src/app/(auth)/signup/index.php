@@ -2,6 +2,11 @@
 
 use Lib\Prisma\Classes\Prisma;
 use Lib\Request;
+use Lib\Auth\Auth;
+
+// if (Auth::getInstance()->isAuthenticated()) {
+//     Request::redirect('/dashboard');
+// }
 
 function registerUser($data)
 {

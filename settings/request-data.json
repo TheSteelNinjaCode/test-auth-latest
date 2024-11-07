@@ -5,22 +5,29 @@
             "C:\\xampp\\htdocs\\projects\\package-creations\\create-prisma-php-app-dev\\create-prisma-php-app-test\\test-auth-latest\\src\\app\\index.php"
         ]
     },
+    "dashboard": {
+        "url": "dashboard",
+        "includedFiles": [
+            "C:\\xampp\\htdocs\\projects\\package-creations\\create-prisma-php-app-dev\\create-prisma-php-app-test\\test-auth-latest\\src\\app\\dashboard\\index.php",
+            "C:\\xampp\\htdocs\\projects\\package-creations\\create-prisma-php-app-dev\\create-prisma-php-app-test\\test-auth-latest\\src\\app\\dashboard\\layout.php"
+        ]
+    },
+    "users": {
+        "url": "users",
+        "includedFiles": [
+            "C:\\xampp\\htdocs\\projects\\package-creations\\create-prisma-php-app-dev\\create-prisma-php-app-test\\test-auth-latest\\src\\app\\users\\index.php"
+        ]
+    },
     "signin": {
         "url": "signin",
         "includedFiles": [
             "C:\\xampp\\htdocs\\projects\\package-creations\\create-prisma-php-app-dev\\create-prisma-php-app-test\\test-auth-latest\\src\\app\\(auth)\\signin\\index.php"
         ]
     },
-    "signup": {
-        "url": "signup",
+    "dashboard\/users": {
+        "url": "dashboard\/users",
         "includedFiles": [
-            "C:\\xampp\\htdocs\\projects\\package-creations\\create-prisma-php-app-dev\\create-prisma-php-app-test\\test-auth-latest\\src\\app\\(auth)\\signup\\index.php"
-        ]
-    },
-    "dashboard": {
-        "url": "dashboard",
-        "includedFiles": [
-            "C:\\xampp\\htdocs\\projects\\package-creations\\create-prisma-php-app-dev\\create-prisma-php-app-test\\test-auth-latest\\src\\app\\dashboard\\index.php",
+            "C:\\xampp\\htdocs\\projects\\package-creations\\create-prisma-php-app-dev\\create-prisma-php-app-test\\test-auth-latest\\src\\app\\dashboard\\users\\index.php",
             "C:\\xampp\\htdocs\\projects\\package-creations\\create-prisma-php-app-dev\\create-prisma-php-app-test\\test-auth-latest\\src\\app\\dashboard\\layout.php"
         ]
     },
@@ -31,10 +38,35 @@
             "C:\\xampp\\htdocs\\projects\\package-creations\\create-prisma-php-app-dev\\create-prisma-php-app-test\\test-auth-latest\\src\\app\\dashboard\\layout.php"
         ]
     },
-    "dashboard\/users": {
-        "url": "dashboard\/users",
+    "auth\/signin": {
+        "url": "auth\/signin",
         "includedFiles": [
-            "C:\\xampp\\htdocs\\projects\\package-creations\\create-prisma-php-app-dev\\create-prisma-php-app-test\\test-auth-latest\\src\\app\\dashboard\\users\\index.php",
+            "C:\\xampp\\htdocs\\projects\\package-creations\\create-prisma-php-app-dev\\create-prisma-php-app-test\\test-auth-latest\\src\\app\\not-found.php"
+        ]
+    },
+    "signup": {
+        "url": "signup",
+        "includedFiles": [
+            "C:\\xampp\\htdocs\\projects\\package-creations\\create-prisma-php-app-dev\\create-prisma-php-app-test\\test-auth-latest\\src\\app\\(auth)\\signup\\index.php"
+        ]
+    },
+    "contact": {
+        "url": "contact",
+        "includedFiles": [
+            "C:\\xampp\\htdocs\\projects\\package-creations\\create-prisma-php-app-dev\\create-prisma-php-app-test\\test-auth-latest\\src\\app\\contact\\index.php"
+        ]
+    },
+    "denied": {
+        "url": "denied",
+        "includedFiles": [
+            "C:\\xampp\\htdocs\\projects\\package-creations\\create-prisma-php-app-dev\\create-prisma-php-app-test\\test-auth-latest\\src\\app\\not-found.php"
+        ]
+    },
+    "dashboard\/customers": {
+        "url": "dashboard\/customers",
+        "includedFiles": [
+            "C:\\xampp\\htdocs\\projects\\package-creations\\create-prisma-php-app-dev\\create-prisma-php-app-test\\test-auth-latest\\src\\app\\not-found.php",
+            "C:\\xampp\\htdocs\\projects\\package-creations\\create-prisma-php-app-dev\\create-prisma-php-app-test\\test-auth-latest\\src\\app\\dashboard\\customers\\index.php",
             "C:\\xampp\\htdocs\\projects\\package-creations\\create-prisma-php-app-dev\\create-prisma-php-app-test\\test-auth-latest\\src\\app\\dashboard\\layout.php"
         ]
     }

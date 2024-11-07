@@ -18,9 +18,9 @@ enum AuthRole: string
 final class AuthConfig
 {
     public const ROLE_IDENTIFIER = 'role';
-    public const IS_ROLE_BASE = false;
+    public const IS_ROLE_BASE = true;
     public const IS_TOKEN_AUTO_REFRESH = false;
-    public const IS_ALL_ROUTES_PRIVATE = false;
+    public const IS_ALL_ROUTES_PRIVATE = true;
 
     /**
      * This is the (default) option for authentication. If IS_ALL_ROUTES_PRIVATE is set to false, 
@@ -29,7 +29,7 @@ final class AuthConfig
      * Example: public static $privateRoutes = ['/']; // This makes the home page private
      * Example: public static $privateRoutes = ['/profile', '/dashboard/settings']; // These routes are private
      */
-    public static array $privateRoutes = [];
+    public static array $privateRoutes = ['/dashboard'];
 
     /**
      * This is the (default) option for authentication. If IS_ALL_ROUTES_PRIVATE is set to true,
@@ -44,7 +44,7 @@ final class AuthConfig
      * Example: public static $publicRoutes = ['/']; // This makes the home page public
      * Example: public static $publicRoutes = ['/about', '/contact']; // These routes are public
      */
-    public static array $publicRoutes = ['/'];
+    public static array $publicRoutes = ['/', '/contact'];
     public static array $authRoutes = [
         '/signin',
         '/signup',
@@ -62,7 +62,10 @@ final class AuthConfig
      *     'sales' => [self::ROLE_IDENTIFIER => [AuthRole::Admin, AuthRole::User]]
      * ];
      */
-    public static array $roleBasedRoutes = [];
+    public static array $roleBasedRoutes = [
+        '/dashboard' => [self::ROLE_IDENTIFIER => [AuthRole::Admin, AuthRole::User]],
+        '/dashboard/customers' => [self::ROLE_IDENTIFIER => [AuthRole::Admin]]
+    ];
 
     /**
      * Checks if the given user role is authorized to access a set of roles.

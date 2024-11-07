@@ -2,6 +2,7 @@
 
 use Lib\MainLayout;
 use Lib\Auth\Auth;
+use Lib\Auth\AuthRole;
 
 MainLayout::$title = 'Dashboard';
 MainLayout::$description = 'Dashboard description';
@@ -34,7 +35,10 @@ function handleSignOut()
             <div class="flex flex-col gap-2">
                 <a href="/dashboard">Dashboard</a>
                 <hr class="border-gray-700">
-                <a href="/dashboard/users">Users</a>
+                <?php if (AuthRole::Admin->equals($user->role)) : ?>
+                    <a href="/dashboard/users">Users</a>
+                <?php endif; ?>
+                <a href="/dashboard/customers">Customers</a>
                 <a href="/dashboard/adds">Adds</a>
             </div>
         </aside>
